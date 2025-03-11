@@ -10,7 +10,15 @@ package com.mycompany.prjclasses;
  */
 public class PrjClasses {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World! i just did my first github activity coooool");
+    public static void main(String[] args){
+    
+        newClass nc=new newClass(); // creating an object of newClasses
+        
+        nc.helloClass(); // have to use var name nc to communicate with the class
+        
+       System.out.printIn(nc.strSecondClassVar);
+        
+    
+    
     }
 }
